@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background: linear-gradient(to bottom left, white 55%, #dceaf9 73%);
+}
+
+header {
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    height: 10vh;
+}
+
+button {
+    height: 33px;
+    border-radius: 8px;;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+h3 {
+    margin: 10px 0 10px 0 !important;
+}
+
+table {
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+thead {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: left;
+    white-space: nowrap;
+}
+
+th {
+    background-color: #052940;
+
+}
+
+.globalHeight {
+    height: 90vh;
+}
+
+.logout {
+    margin: 5px 5px 5px 5px;
+    background-color: #BB2D3B;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    border-radius: 8px;
+    padding: 0 5vw 2vh 5vw;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    align-items: center;
+    width: 62vw;
+    height: auto;
+    border-left: 8px #9FC132 solid;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    background-color: #FFF;
+}
+
+.titre {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.contenuTableau {
+    background-color: #EBF2FA99;
+}
+
+.headRow{
+    height: 5vh;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    height: 7vh;
+    width: 30vw;
+    justify-content: space-evenly;
+}
+
+.addBtn {
+    background-color: #198754;
+    color: whitesmoke;
+}
+
+.input {
+    border-radius: 8px;
+    border: 1px solid;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    height: 30px;
+}
+
+.completed {
+    color: #9FC132;
+}
+
+.deleteAll {
+    margin-top: 1vh;
+    background-color: #BB2D3B;
+    color: whitesmoke;
+}
